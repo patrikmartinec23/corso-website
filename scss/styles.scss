@@ -1,0 +1,11 @@
+.header {
+    min-height: 1000px;
+    background: linear-gradient(to bottom , rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url('../images/header-background.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background: var(--bs-dark);
+    }
+}
